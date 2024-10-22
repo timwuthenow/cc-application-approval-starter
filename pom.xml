@@ -134,6 +134,12 @@
       <artifactId>kogito-scenario-simulation</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <!-- OpenShift -->
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-openshift</artifactId>
+  </dependency>
   </dependencies>
   <build>
     <plugins>
